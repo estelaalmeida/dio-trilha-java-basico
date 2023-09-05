@@ -3,8 +3,14 @@ public class ContaTerminal {
 
 
     public static void main(String[] args){
-        System.out.println("Olá [Estela], obrigado por criar uma conta em nosso banco, sua agência é [539], conta [5399] e seu saldo [1.0000.00] já está disponível para saque.");
-    
-    };
+            String nome = args [0];
+            String sobrenome = args [1];
+            String  agencia=  args [2];
+            String conta =  args [3];
+            double saldo = Double.valueOf(args [4]);
 
+            System.out.println("Olá" + nome + sobrenome);
+            System.out.println("Obrigada por criar conta em nosso banco" + saldo);
+            System.out.println("já está disponivel para saque" + saldo);  
+}
 }
