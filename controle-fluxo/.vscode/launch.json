@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RepeticaoDoWhile",
+            "request": "launch",
+            "mainClass": "RepeticaoDoWhile",
+            "projectName": "controle-fluxo_50fc72e6"
+        },
+        {
+            "type": "java",
+            "name": "RepeticaoBreakContinue",
+            "request": "launch",
+            "mainClass": "RepeticaoBreakContinue",
+            "projectName": "controle-fluxo_50fc72e6"
+        },
+        {
+            "type": "java",
+            "name": "ForArrays",
+            "request": "launch",
+            "mainClass": "ForArrays",
+            "projectName": "controle-fluxo_50fc72e6"
+        },
+        {
+            "type": "java",
+            "name": "RepeicaoFor",
+            "request": "launch",
+            "mainClass": "RepeicaoFor",
+            "projectName": "controle-fluxo_50fc72e6"
+        },
+        {
+            "type": "java",
             "name": "PlanoOperadora",
             "request": "launch",
             "mainClass": "PlanoOperadora",
