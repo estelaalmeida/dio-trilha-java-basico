@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FormatadorCep",
+            "request": "launch",
+            "mainClass": "FormatadorCep",
+            "projectName": "controle-fluxo_50fc72e6"
+        },
+        {
+            "type": "java",
+            "name": "CheckedAndUncheckedExceptions",
+            "request": "launch",
+            "mainClass": "CheckedAndUncheckedExceptions",
+            "projectName": "controle-fluxo_50fc72e6"
+        },
+        {
+            "type": "java",
+            "name": "EstruturaExcepcionais",
+            "request": "launch",
+            "mainClass": "EstruturaExcepcionais",
+            "projectName": "controle-fluxo_50fc72e6"
+        },
+        {
+            "type": "java",
             "name": "RepeticaoDoWhile",
             "request": "launch",
             "mainClass": "RepeticaoDoWhile",
