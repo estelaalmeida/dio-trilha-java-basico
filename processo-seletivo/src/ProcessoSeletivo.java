@@ -7,7 +7,17 @@ public class ProcessoSeletivo {
         /*analisarCandidato(1900.0);
         analisarCandidato(2200.0);
         analisarCandidato(2000.0);*/
-    } 
+        }
+
+        static void imprimirSelecionados(){
+            String[] candidatos = {"FELIPE","MARCIA","PAULO","AUGUSTO"};
+            System.out.println("Imprimindo a lista de candidatos informando o indice do elemeto");
+            for(int indice=0;indice<candidatos.length;indice++){
+                System.out.println("O candicandidatodato de n°"+"é"+ candidatos[indice]);
+            }
+
+        
+    }
             static void selecaoCandidatos(){
             String [] candidatos = {"FELIPE", "MARCIA","JULIA","PAULO","AUGUSTO","MONICA","FABRICIO","MIRELA","DANIELA","JORGE"};
                 int candidatoSelecionado = 0;
