@@ -1,21 +1,32 @@
-
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
-public class equilibrandoSaldo {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+public class BancoOrganizadorAtivos {
+  public static void main(String[] args) {
+    Scanner scanner = new Scanner(System.in);
+    ArrayList < String > ativos = new ArrayList <> ();
 
-        double saldoAtual = scanner.nextDouble();
-        double valorDeposito = scanner.nextDouble();
-        double valorRetirada = scanner.nextDouble();
-      
+    //Entrada dos tipos de ativos
+    int quantidadeAtivos = scanner.nextInt();
 
-       //TODO: Calcular o saldo atualizado de acordo com a descrição deste desafio.
-      
-      double saldoAtualizado = saldoAtual + valorDeposito - valorRetirada;
-     //TODO: Imprimir o a saída de conforme a tabela de exemplos (uma casa decimal).
+    // Entrada dos códigos dos ativos
+    for (int i = 0; i <= quantidadeAtivos; i++) {
+      String codigoAtivo = scanner.nextLine();
+      ativos.add("\n " + codigoAtivo);
     
-    System.out.printf("Saldo atualizado na conta:  %.1f\n", saldoAtualizado);
-      
+
     }
+    
+    //TODO: Ordenar os ativos em ordem alfabética.
+      Collections.sort(ativos);
+
+
+    //TODO: Imprimir a lista de ativos ordenada, conforme a tabela de exemplos.
+    //System.out.print(" 3"+ " \n   "+(ativos));// errado
+    ativos.forEach(System.out::print);// maneira  certa
+     
+    
+    
+  }
 }
