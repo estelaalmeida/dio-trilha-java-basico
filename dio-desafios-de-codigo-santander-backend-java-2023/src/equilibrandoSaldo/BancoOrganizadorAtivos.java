@@ -1,3 +1,4 @@
+package equilibrandoSaldo;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -10,7 +11,7 @@ public class BancoOrganizadorAtivos {
     //Entrada dos tipos de ativos
     int quantidadeAtivos = scanner.nextInt();
 
-    // Entrada dos códigos dos ativos
+    // /Entrada dos códigos dos ativos
     for (int i = 0; i <= quantidadeAtivos; i++) {
       String codigoAtivo = scanner.nextLine();
       ativos.add("\n " + codigoAtivo);
